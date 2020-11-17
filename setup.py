@@ -33,6 +33,7 @@ setup(
     packages=['custom_reg_form'],
     install_requires=[
         'Django',
+        'django-phonenumber-field[phonenumberslite]',
     ],
 )
 

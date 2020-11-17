@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 from django.db import migrations, models
 from django.conf import settings
+from phonenumber_field.modelfields import PhoneNumberField
 
 
 class Migration(migrations.Migration):
@@ -16,8 +17,7 @@ class Migration(migrations.Migration):
             name='ExtraInfo',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('favorite_movie', models.CharField(max_length=100, verbose_name=b'Fav Flick', error_messages={b'required': 'Please tell us your favorite movie.', b'invalid': "We're pretty sure you made that movie up."})),
-                ('favorite_editor', models.CharField(blank=True, max_length=5, verbose_name=b'Favorite Editor', choices=[(b'vim', b'Vim'), (b'emacs', b'Emacs'), (b'np', b'Notepad'), (b'cat', b'cat > filename')])),
+                ('phone_number', PhoneNumberField(null=False, blank=False, unique=True)),
                 ('user', models.OneToOneField(null=True, to=settings.AUTH_USER_MODEL)),
             ],
         ),
