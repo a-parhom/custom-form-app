@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-12 22:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: forms.py:12
+msgid "Будь ласка, вкажіть регіон."
+msgstr "Пожалуйста, укажите регион."
+
+#: models.py:16
+msgid "Автономна Республіка Крим"
+msgstr "Автономная Республика Крым"
+
+#: models.py:17
+msgid "Вінницька область"
+msgstr "Винницкая область"
+
+#: models.py:18
+msgid "Волинська область"
+msgstr "Волынская область"
+
+#: models.py:19
+msgid "Дніпропетровська область"
+msgstr "Днепропетровская область"
+
+#: models.py:20
+msgid "Донецька область"
+msgstr "Донецкая область"
+
+#: models.py:21
+msgid "Житомирська область"
+msgstr "Житомирская область"
+
+#: models.py:22
+msgid "Закарпатська область"
+msgstr "Закарпатская область"
+
+#: models.py:23
+msgid "Запорізька область"
+msgstr "Запорожская область"
+
+#: models.py:24
+msgid "Івано-Франківська область"
+msgstr "Ивано-Франковская область"
+
+#: models.py:25
+msgid "Київська область"
+msgstr "Киевская область"
+
+#: models.py:26
+msgid "Кіровоградська область"
+msgstr "Кировоградская область"
+
+#: models.py:27
+msgid "Луганська область"
+msgstr "Луганская область"
+
+#: models.py:28
+msgid "Львівська область"
+msgstr "Львовская область"
+
+#: models.py:29
+msgid "Миколаївська область"
+msgstr "Николаевская область"
+
+#: models.py:30
+msgid "Одеська область"
+msgstr "Одесская область"
+
+#: models.py:31
+msgid "Полтавська область"
+msgstr "Полтавская область"
+
+#: models.py:32
+msgid "Рівненська область"
+msgstr "Ровенская область"
+
+#: models.py:33
+msgid "Сумська область"
+msgstr "Сумская область"
+
+#: models.py:34
+msgid "Тернопільська область"
+msgstr "Тернопольская область"
+
+#: models.py:35
+msgid "Харківська область"
+msgstr "Харьковская область"
+
+#: models.py:36
+msgid "Херсонська область"
+msgstr "Херсонская область"
+
+#: models.py:37
+msgid "Хмельницька область"
+msgstr "Хмельницкая область"
+
+#: models.py:38
+msgid "Черкаська область"
+msgstr "Черкасская область"
+
+#: models.py:39
+msgid "Чернівецька область"
+msgstr "Черновицкая область"
+
+#: models.py:40
+msgid "Чернігівська область"
+msgstr "Черниговская область"
+
+#: models.py:41
+msgid "м. Київ"
+msgstr "г. Киев"
+
+#: models.py:42
+msgid "м. Севастополь"
+msgstr "г. Севастополь"
+
+#: models.py:43
+msgid "Інша країна"
+msgstr "Другая страна"
+
+#: models.py:47
+msgid "Регіон"
+msgstr "Регион"

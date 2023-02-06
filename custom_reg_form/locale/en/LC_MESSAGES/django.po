@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-12 22:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:12
+msgid "Будь ласка, вкажіть регіон."
+msgstr "Please specify a region."
+
+#: models.py:16
+msgid "Автономна Республіка Крим"
+msgstr "Autonomous Republic of Crimea"
+
+#: models.py:17
+msgid "Вінницька область"
+msgstr "Vinnytsia oblast"
+
+#: models.py:18
+msgid "Волинська область"
+msgstr "Volyn oblast"
+
+#: models.py:19
+msgid "Дніпропетровська область"
+msgstr "Dnipropetrovsk oblast"
+
+#: models.py:20
+msgid "Донецька область"
+msgstr "Donetsk oblast"
+
+#: models.py:21
+msgid "Житомирська область"
+msgstr "Zhytomyr oblast"
+
+#: models.py:22
+msgid "Закарпатська область"
+msgstr "Zakarpattia oblast"
+
+#: models.py:23
+msgid "Запорізька область"
+msgstr "Zaporizhzhia oblast"
+
+#: models.py:24
+msgid "Івано-Франківська область"
+msgstr "Ivano-Frankivsk oblast"
+
+#: models.py:25
+msgid "Київська область"
+msgstr "Kyiv oblast"
+
+#: models.py:26
+msgid "Кіровоградська область"
+msgstr "Kirovograd oblast"
+
+#: models.py:27
+msgid "Луганська область"
+msgstr "Luhansk oblast"
+
+#: models.py:28
+msgid "Львівська область"
+msgstr "Lviv oblast"
+
+#: models.py:29
+msgid "Миколаївська область"
+msgstr "Mykolaiv oblast"
+
+#: models.py:30
+msgid "Одеська область"
+msgstr "Odessa oblast"
+
+#: models.py:31
+msgid "Полтавська область"
+msgstr "Poltava oblast"
+
+#: models.py:32
+msgid "Рівненська область"
+msgstr "Rivne oblast"
+
+#: models.py:33
+msgid "Сумська область"
+msgstr "Sumy oblast"
+
+#: models.py:34
+msgid "Тернопільська область"
+msgstr "Ternopil oblast"
+
+#: models.py:35
+msgid "Харківська область"
+msgstr "Kharkiv oblast"
+
+#: models.py:36
+msgid "Херсонська область"
+msgstr "Kherson oblast"
+
+#: models.py:37
+msgid "Хмельницька область"
+msgstr "Khmelnytsky oblast"
+
+#: models.py:38
+msgid "Черкаська область"
+msgstr "Cherkasy oblast"
+
+#: models.py:39
+msgid "Чернівецька область"
+msgstr "Chernivtsi oblast"
+
+#: models.py:40
+msgid "Чернігівська область"
+msgstr "Chernihiv oblast"
+
+#: models.py:41
+msgid "м. Київ"
+msgstr "Kyiv"
+
+#: models.py:42
+msgid "м. Севастополь"
+msgstr "Sevastopol"
+
+#: models.py:43
+msgid "Інша країна"
+msgstr "Other country"
+
+#: models.py:47
+msgid "Регіон"
+msgstr "Region"

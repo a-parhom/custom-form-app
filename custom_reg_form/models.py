@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.db import models
+from django.utils.translation import ugettext_lazy as _
 
 # Backwards compatible settings.AUTH_USER_MODEL
 USER_MODEL = getattr(settings, 'AUTH_USER_MODEL', 'auth.User')
@@ -10,40 +11,40 @@ class ExtraInfo(models.Model):
     This model contains two extra fields that will be saved when a user registers.
     The form that wraps this model is in the forms.py file.
     """
-    user = models.OneToOneField(USER_MODEL, null=True)
+    user = models.OneToOneField(USER_MODEL, null=True, on_delete=models.CASCADE)
     REGION = (
-        ('ark', 'Автономна Республіка Крим'),
-        ('vinnytsia_oblast', 'Вінницька область'),
-        ('volyn_oblast', 'Волинська область'),
-        ('dnipro_oblast', 'Дніпропетровська область'),
-        ('donetsk_oblast', 'Донецька область'),
-        ('zhytomyr_oblast', 'Житомирська область'),
-        ('zakarpatska_oblast', 'Закарпатська область'),
-        ('zaporizhzhia_oblast', 'Запорізька область'),
-        ('ivanofrankivsk_oblast', 'Івано-Франківська область'),
-        ('kyiv_oblast', 'Київська область'),
-        ('kirovograd_oblast', 'Кіровоградська область'),
-        ('luhansk_oblast', 'Луганська область'),
-        ('lviv_oblast', 'Львівська область'),
-        ('mykolaiv_oblast', 'Миколаївська область'),
-        ('odessa_oblast', 'Одеська область'),
-        ('poltava_oblast', 'Полтавська область'),
-        ('rivne_oblast', 'Рівненська область'),
-        ('sumy_oblast', 'Сумська область'),
-        ('ternopil_oblast', 'Тернопільська область'),
-        ('kharkiv_oblast', 'Харківська область'),
-        ('kherson_oblast', 'Херсонська область'),
-        ('khmelnytskyi_oblast', 'Хмельницька область'),
-        ('cherkasy_oblast', 'Черкаська область'),
-        ('chernivtsi_oblast', 'Чернівецька область'),
-        ('chernihiv_oblast', 'Чернігівська область'),
-        ('kyiv_city', 'м. Київ'),
-        ('sevastopol_city', 'м. Севастополь'),
-        ('other_country', 'Інша країна'),
+        ('ark ', _('Автономна Республіка Крим')),
+        ('vinnytsia_oblast ', _('Вінницька область')),
+        ('volyn_oblast ', _('Волинська область')),
+        ('dnipro_oblast ', _('Дніпропетровська область')),
+        ('donetsk_oblast ', _('Донецька область')),
+        ('zhytomyr_oblast ', _('Житомирська область')),
+        ('zakarpatska_oblast ', _('Закарпатська область')),
+        ('zaporizhzhia_oblast ', _('Запорізька область')),
+        ('ivanofrankivsk_oblast ', _('Івано-Франківська область')),
+        ('kyiv_oblast ', _('Київська область')),
+        ('kirovograd_oblast ', _('Кіровоградська область')),
+        ('luhansk_oblast ', _('Луганська область')),
+        ('lviv_oblast ', _('Львівська область')),
+        ('mykolaiv_oblast ', _('Миколаївська область')),
+        ('odessa_oblast ', _('Одеська область')),
+        ('poltava_oblast ', _('Полтавська область')),
+        ('rivne_oblast ', _('Рівненська область')),
+        ('sumy_oblast ', _('Сумська область')),
+        ('ternopil_oblast ', _('Тернопільська область')),
+        ('kharkiv_oblast ', _('Харківська область')),
+        ('kherson_oblast ', _('Херсонська область')),
+        ('khmelnytskyi_oblast ', _('Хмельницька область')),
+        ('cherkasy_oblast ', _('Черкаська область')),
+        ('chernivtsi_oblast ', _('Чернівецька область')),
+        ('chernihiv_oblast ', _('Чернігівська область')),
+        ('kyiv_city ', _('м. Київ')),
+        ('sevastopol_city ', _('м. Севастополь')),
+        ('other_country ', _('Інша країна')),
     )
 
     region = models.CharField(
-        verbose_name="Region",
+        verbose_name=_("Регіон"),
         choices=REGION,
-        max_length=21,
+        max_length=25,
     )
