@@ -1,6 +1,6 @@
 from .models import ExtraInfo
 from django.forms import ModelForm
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 class ExtraInfoForm(ModelForm):
     """
